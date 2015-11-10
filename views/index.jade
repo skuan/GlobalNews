@@ -1,0 +1,42 @@
+extends layout
+
+block content
+	h1= title
+	p#subtitle Welcome to #{title}
+
+	#page
+		#maincontent
+			Span#section_name Top Stories
+			#content Topic One
+			#content Topic Two
+		#menuleftcontent
+			ul.menu-container Top Stories
+				li
+					a(href='#content') Topic One
+				li
+					a(href='#content') Topic Two
+				li
+					a(href='#content') Topic Three
+				li
+					a(href='#content') Topic Four
+
+			ul.menu-container Top Op-Eds From Around the World
+				li
+					a(href='#content') first
+				li
+					a(href='#content') second
+				li
+					a(href='#content') third
+				li
+					a(href='#content') fourth
+
+			ul.menu-container Setiments (Blogosphere Trending)
+				li
+					a(href='#content') Topic A (top 2-3 topics on social media ranked on per capita basis based on region (N. America, S. America, Europe and Russia, Middle East/Central Asia, East Asia, South Asia, Africa))
+				li
+					a(href='#content') Topic B
+				li
+					a(href='#content') Topic C
+
+
+		#clearingdiv

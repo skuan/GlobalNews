@@ -1,0 +1,47 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+*/
+/*a {
+  color: #00B7FF;
+}
+*/
+#page {
+    margin-left: 200px;
+}
+#maincontent {
+    float: right;
+    width: 90%;
+    text-align: left;
+    /*background-color: #F0F0F0;*/
+}
+#menuleftcontent{
+    float: left;
+    width: 250px;
+    margin-left: -200px;
+    padding-right: 20px;
+    /*background-color: #CCCCCC;*/
+}
+#clearingdiv {
+    clear: both;
+}
+
+p#subtitle {
+  padding-bottom: 20px;
+  height: 35px;
+}
+
+#section_name {
+  background-color: whitesmoke;
+  height: 35px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #222;
+}
+
+ul.menu-container {
+    font-size: 24px;
+}
+
+
